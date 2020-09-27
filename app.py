@@ -20,7 +20,10 @@ def get_lucky_num():
     """
     
     
+    #not sure why email, name and color are only needed for validation purposes or why validation isn't being handled
+    #by the form on client side or by a database model/ wtforms ?
     
+    # name = request.json["name"]
     # email = request.json["email"]
     year = request.json['year']
     
